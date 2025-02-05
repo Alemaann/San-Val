@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I love you</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        emailjs.init("service_bgw2jf9"); // Reemplaza con tu clave pública de EmailJS
+    </script>
+   
+</head>
+<body>
+   
+
+    <div class="container">
+        <h1> Seidy Martinez, ¿Quieres ser mi San Valentín? 💗</h1>
+        <div class="buttons">
+            <button id="yesBtn">Sí 💗</button>
+            <button id="noBtn">No ❌</button>
+        </div>
+        <p id="finalMessage" class="hidden" style="font-size: 35px;
+    font-style: bold; color: #ff1493;">¡Sabía que aceptaría compadre! 💕 Gracias por hacerme feliz 😍</p>
+   
+    <div id="small-video-container" class="hidden">
+        <video autoplay loop muted id="background-video">
+            <source src="love.mp4" type="video/mp4">
+            Tu navegador no soporta videos.
+        </video>
+    </div>
+ </div>
+    <script src="script.js"></script>
+</body>
+</html>

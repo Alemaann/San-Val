@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+}
+
+body {
+    background-image: url(/🌸Strawberry🌸.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.container {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #ff69b4;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#yesBtn {
+    background-color: #f757a7;
+    color: white;
+}
+
+#yesBtn:hover {
+    background-color: #ffffff;
+    color:#f757a7;
+    border: solid 1px #f757a7;
+    
+}
+
+#noBtn {
+    background-color: #bd4541;
+    color: white;
+}
+
+#noBtn:hover {
+    background-color: #ffffff;
+    color: #bd4541 ;
+    border: solid 1px #bd4541;
+}
+
+.hidden {
+    display: none;
+    
+    color: #ff1493;
+    margin-top: 20px;
+}
+
+#small-video-container {
+    display: none;
+    margin-top: 20px;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+#small-video{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+   
+}
